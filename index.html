@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média Aluno</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <img src = "img/umc.png" alt = "" width="300px" height="200px">
+    <h1>Boletim do Aluno</h1>
+ 
+    <label for="">Digite a nota da M1</label>
+    <br>
+    <input type="number" placeholder="Digite a M1" id="notaM1">
+    <br><br>
+    <label for="">Digite a nota da M2</label>
+    <br>
+    <input type="number" placeholder="Digite a M2" id="notaM2">
+    <br><br>
+    <button class="botao" onclick="calculoMedia()">Calcular Média</button>
+    <br>
+    <p id="notaFinal">Aguardando nota..</p>
+    <p id="resultadoAluno">Aguardando situação final..</p>
+ 
+    <script src="script.js"></script>
+</body>
+</html>

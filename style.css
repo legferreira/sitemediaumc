@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+ 
+input {
+    text-align: center;
+}
+ 
+.botao {
+    background-color: red;
+    color: white;
+    border: 0;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+.botao:hover {
+    background-color: blue;
+    color: orange;
+}
+ 
+#notaM1,
+#notaM2 {
+    background-color: rgb(164, 252, 249);
+    border: 0;
+}
